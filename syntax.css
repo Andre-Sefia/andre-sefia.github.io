@@ -324,7 +324,54 @@ margin: 7px;
   *{
     width: 100%;
   }
+
   /*NAV*/
+  nav{
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  nav ul{
+    display: flex;
+  }
+  nav ul li{
+    font-size: 0;
+  }
+  nav ul li i{
+    font-size: 20px;
+    text-align: center;
+  }
+  /*.flexox{
+  display: block;
+  height: 40px;
+  width: 100%;
+  background: url(images/png-transparent-computer-icons-hamburger-button-icon-design-web-typography-bar-icon-angle-rectangle-navigation-bar.png) no-repeat 98% center;
+  background-size: 15%;
+}
+nav ul{
+  overflow: hidden;
+  height: 0;
+}
+nav ul.open{
+ height: auto;
+}
+nav ul li{
+  float: none;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+nav ul a{
+color: #fff;
+padding: 10px;
+text-decoration: underline;
+display: block;
+margin: 0;
+}*/
+nav ul li:hover{
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none;
+}
+
 
   /*HOME*/
 .name .profile{
@@ -333,10 +380,22 @@ margin: 7px;
 }
   .name h1 {
     font-size: 40px;
+    text-align: center;
   }
   .name img {
    margin-top: 30px;
   }
+  .profile button {
+    width: 60%;
+    margin-left: 20%;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    border: 2px solid white;
+    background-color: rgb(153, 243, 50);
+    box-shadow: 0 0 10px white;
+  }
+
 
   /*ABOUT*/
 .img img {
