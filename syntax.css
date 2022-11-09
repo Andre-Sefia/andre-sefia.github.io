@@ -545,8 +545,9 @@ box-shadow: 0 0 25px black;
 }
 
 /*PORTFOLIO*/
-.projects p{
+.projects p a{
   color: #fff;
+ padding: 10px;
 }
 
 /*SERVICES*/
@@ -599,7 +600,7 @@ margin-top: 1%;
 /*MEDIA QUERRIES*/
 /*FOR TABLETS*/
 /*================================*/
-@media screen and (min-width: 700px) and (max-width:1200px) {
+@media screen and (min-width: 1000px) and (max-width:1200px) {
   /*HOME*/
 .profile{
   top: 55%;
