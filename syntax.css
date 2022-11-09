@@ -600,7 +600,7 @@ margin-top: 1%;
 /*MEDIA QUERRIES*/
 /*FOR TABLETS*/
 /*================================*/
-@media screen and (min-width: 1000px) and (max-width:1200px) {
+@media screen and (min-width: 1020px) and (max-width:1200px) {
   /*HOME*/
 .profile{
   top: 55%;
