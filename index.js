@@ -1,9 +1,10 @@
-/*$(document).ready(function () {
+$(document).ready(function () {
 
-    $(".flexox").on("click", function () {
+
+    $(".navbox").on("click", function () {
 
         $("nav ul").toggleClass("open");
 
     });
 
-});*/
+});
